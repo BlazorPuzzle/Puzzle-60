@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle-60", "Puzzle-60\Puzzle-60.csproj", "{2380E49F-5508-4819-97A7-7427402920CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyInputLibrary", "CurrencyInputLibrary\CurrencyInputLibrary.csproj", "{83F8D292-C268-4CD2-8DDE-91A0962C94E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2380E49F-5508-4819-97A7-7427402920CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2380E49F-5508-4819-97A7-7427402920CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2380E49F-5508-4819-97A7-7427402920CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2380E49F-5508-4819-97A7-7427402920CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F8D292-C268-4CD2-8DDE-91A0962C94E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F8D292-C268-4CD2-8DDE-91A0962C94E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F8D292-C268-4CD2-8DDE-91A0962C94E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F8D292-C268-4CD2-8DDE-91A0962C94E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

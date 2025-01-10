@@ -1,0 +1,44 @@
+﻿@page "/"
+
+<style>
+    .currency {
+        font-weight: bold;
+        color:black;
+        text-align:right;
+    }
+</style>
+
+<PageTitle>Home</PageTitle>
+
+<h1>Blazor Puzzle 60</h1>
+
+<p>This is a .NET 9 Blazor Web App with global server interactivity.</p>
+
+<p>
+    The challenge was to create a standalone currency input component using 
+    the solution from puzzle #59
+</p>
+
+<p>
+    For the solution, we've created a Razor Class Library with a single component:
+    CurrencyInput.
+</p>
+<p>
+    Note that in order for the local decimal value (MyCurrencyValue) to change locally,
+    we have to bind the DecimalValue parameter to it rather than just supply it 
+    as a parameter, which is a one-way binding.
+</p>
+
+<CurrencyInput @bind-DecimalValue="MyCurrencyValue"  CssClass="currency" />
+
+<br />
+<br />
+
+<p>Value: @MyCurrencyValue</p>
+
+@code {
+
+    decimal MyCurrencyValue { get; set; } 
+
+}
+
